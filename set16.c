@@ -1,10 +1,11 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+ 
+int main() 
 {
-int a;
-scanf("%d",&a);
-if(a%4==0)
-printf("leap year");
+int n=2016;
+if(n%4==0)
+printf("Yes");
 else
-printf("not leap year");
+printf("No");
+	return 0;
 }
