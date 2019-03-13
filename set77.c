@@ -1,18 +1,13 @@
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
-    int n1,n;
-    scanf("%d",&n);
-    
-    n1=n+1;
-    while(n1!=0)
-    {
-        if(n1%10==0)
-        {
-            printf("%d",n1);
-            break;
-        }
-        n1++;
-    }
-  
+int a;
+printf("enter the number");
+scan("%d",&a);
+while((a%10)!=0)
+{
+a++;
+}
+printf("the multiple nearest is %d",a);
 }
