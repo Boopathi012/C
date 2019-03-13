@@ -1,15 +1,12 @@
-#include "stdio.h"
-void main()
+#include <stdio.h>
+
+int main()
 {
-  int a;
-  printf("enter the number");
-  scanf("%d",&a);
-  if(a%2==0)
-  {
-    printf("%d",a);
-  }
-  else
-  {
-    printf("%d",--a);
-  }
+int n=123;
+if(n%2==0)
+printf("Even num is %d",n);
+else
+printf("Even num is %d",n-1);
+
+	return 0;
 }
