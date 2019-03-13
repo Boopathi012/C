@@ -1,16 +1,11 @@
-#include "stdio.h"
+#include<stdio.h>
 void main()
 {
-  int a,b,c;
-  printf("enter the two numbers");
-  scanf("%d%d",&a,&b);
-  c=a*b;
-  if(c%2==0)
-  {
-    printf("even");
-  }
-  else
-  {
-    printf("odd");
-  }
+int num;
+printf("Enter an integer: ");
+scanf("%d", &num);
+if(number % 2 == 0)
+printf("%d is even.", number);
+else
+printf("%d is odd.", number);
 }
